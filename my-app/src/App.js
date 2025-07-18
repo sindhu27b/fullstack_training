@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import Products from './Products'
 
 function App() {
   const [items, setItems] = useState([]);
@@ -44,6 +45,7 @@ function App() {
           />
           <button type="submit">Add Item</button>
         </form>
+        <Products/>
       </header>
     </div>
   );
